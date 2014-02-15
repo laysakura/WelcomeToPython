@@ -19,22 +19,23 @@ PyPIに上げることのできるPythonパッケージの作り方を示した�
 従ってやや主観が入りますが、ご了承ください。
 
 .. code-block:: bash
-$ tree -a -I .git
-.
-├── .coveragerc
-├── .gitignore
-├── .travis.yml
-├── CHANGES.rst
-├── MANIFEST.in
-├── README.rst
-├── setup.cfg
-├── setup.py
-├── test
-└── welcometopython
-    ├── __init__.py
-    └── calc
+
+    $ tree -a -I .git
+    .
+    ├── .coveragerc
+    ├── .gitignore
+    ├── .travis.yml
+    ├── CHANGES.rst
+    ├── MANIFEST.in
+    ├── README.rst
+    ├── setup.cfg
+    ├── setup.py
+    ├── test
+    └── welcometopython
         ├── __init__.py
-        └── fib.py
+        └── calc
+            ├── __init__.py
+            └── fib.py
 
 
 TODO
