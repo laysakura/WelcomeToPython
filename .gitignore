@@ -1,0 +1,27 @@
+# エディタが吐くゴミ
+*~
+
+# OSが吐くゴミ
+core
+
+# Pythonインタプリタがが吐くコンパイル済みコード
+*.pyc
+*.pyo
+__pycache__/
+
+# setup.py コマンドが吐くゴミ
+build/
+dist/
+lib/
+man/
+local/
+include/
+*.egg-info/
+*.egg/
+*.egg
+MANIFEST
+
+# nose-cov が吐くゴミ
+.coverage
+.coverage.*
+htmlcov/
