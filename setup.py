@@ -16,7 +16,7 @@ setup(
     long_description=open('README.rst').read(),
     url='https://github.com/laysakura/WelcomeToPython',
     license='LICENSE.txt',
-    version='1.1',
+    version='1.2',
     author='Sho Nakatani',
     author_email='lay.sakura@gmail.com',
     test_suite='nose.collector',
@@ -24,6 +24,7 @@ setup(
     install_requires=[
         'rainbow_logging_handler',
     ],  # 依存パッケージ記述。 ``./setup.py install`` で自動インストールされる
+        # 実際にはこのパッケージ使用してません :P
     extras_require={
         'testing': tests_require,
     },  # こうしておくと、 ``pip install -e .[testing]``
