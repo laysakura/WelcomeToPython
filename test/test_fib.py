@@ -7,3 +7,6 @@ def test_fibonacci():
     """:func:`fibonacci` のテスト"""
     ns.eq_(fibonacci(2), 1)
     ns.eq_(fibonacci(10), 55)
+
+    with ns.assert_raises(ValueError):
+        fibonacci(-1)

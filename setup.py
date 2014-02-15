@@ -5,6 +5,8 @@ from setuptools import setup
 
 tests_require = [
     'nose',
+    'coverage',
+    'nose-cov',
 ]
 """テストの際使用するパッケージ"""
 
@@ -14,7 +16,7 @@ setup(
     long_description=open('README.rst').read(),
     url='https://github.com/laysakura/WelcomeToPython',
     license='LICENSE.txt',
-    version='1.0',
+    version='1.1',
     author='Sho Nakatani',
     author_email='lay.sakura@gmail.com',
     test_suite='nose.collector',
