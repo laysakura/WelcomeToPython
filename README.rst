@@ -24,6 +24,7 @@ PyPIに上げることのできるPythonパッケージの作り方を示した�
     .
     ├── .gitignore
     ├── CHANGES.rst  # いわゆるCHANGELOG
+    ├── LICENSE.txt
     ├── MANIFEST.in  # PyPIに特別に登録したいファイルを記述
     ├── README.rst
     ├── setup.cfg    # setup.py スクリプトの動作設定
