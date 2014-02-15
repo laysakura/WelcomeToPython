@@ -22,20 +22,20 @@ PyPIに上げることのできるPythonパッケージの作り方を示した�
 
     $ tree -a -I .git
     .
-    ├── .coveragerc
     ├── .gitignore
-    ├── .travis.yml
-    ├── CHANGES.rst
-    ├── MANIFEST.in
+    ├── CHANGES.rst  # いわゆるCHANGELOG
+    ├── MANIFEST.in  # PyPIに特別に登録したいファイルを記述
     ├── README.rst
-    ├── setup.cfg
-    ├── setup.py
+    ├── setup.cfg    # setup.py スクリプトの動作設定
+    ├── setup.py     # パッケージのインストール、テストなどを提供するためのスクリプト
     ├── test
-    └── welcometopython
+    │   ├── __init__.py  # テストケースを入れるディレクトリ
+    │   └── test_fib.py  # welcometopython.calc.fib モジュールのテスト
+    └── welcometopython  # こういう名前のパッケージを今回作る。小文字かアンダースコア使おう
         ├── __init__.py
         └── calc
             ├── __init__.py
-            └── fib.py
+            └── fib.py   # welcometopython.calc.fib モジュール
 
 
 TODO
