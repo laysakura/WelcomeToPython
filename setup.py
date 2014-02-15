@@ -5,8 +5,6 @@ from setuptools import setup
 
 tests_require = [
     'nose',
-    'coverage',
-    'nose-cov',
 ]
 """テストの際使用するパッケージ"""
 
@@ -16,7 +14,7 @@ setup(
     long_description=open('README.rst').read(),
     url='https://github.com/laysakura/WelcomeToPython',
     license='LICENSE.txt',
-    version='0.0.1',
+    version='1.0',
     author='Sho Nakatani',
     author_email='lay.sakura@gmail.com',
     test_suite='nose.collector',
@@ -29,8 +27,8 @@ setup(
     },  # こうしておくと、 ``pip install -e .[testing]``
         # でテストに必要なパッケージが入る
     packages=[
-        'WelcomeToPython',
-        'WelcomeToPython.calc',
+        'welcometopython',
+        'welcometopython.calc',
     ],  # 提供パッケージ一覧。サブモジュールも忘れずに
     scripts=[
     ],  # 実行ファイル一覧。 ``./setup.py install`` で
