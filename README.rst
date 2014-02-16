@@ -96,7 +96,7 @@ n番目のフィボナッチ数を求める ``fibonacci(n)`` 関数が定義さ�
 
 
 また、このように docstring を関数やモジュールに対して記述するのもマナーのひとつです。
-docstring があれば、それを元にドキュメントを自動生成できます。 :ref:`autodoc-by-sphinx`
+docstring があれば、それを元にドキュメントを自動生成できます( :ref:`autodoc-by-sphinx` )。
 
 
 テストの解説
@@ -358,6 +358,8 @@ Pythonコミュニティでは、 **Sphinx** というドキュメントビル�
 
 PyPIパッケージでは、docstringやREADMEをReST(ReStructured Text)形式で記述することが求められます。
 早いうちにReST形式に慣れておきましょう。
+
+.. _autodoc-by-sphinx:
 
 
 美しいコードを書く
